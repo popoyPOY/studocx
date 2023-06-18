@@ -1,0 +1,75 @@
+@media (max-width: 700px) {
+
+     .ul-show ul{
+          display: flex;
+          flex-direction: column;
+          top: 0;
+          right: 0;
+          left: 0;
+          position: fixed;
+          align-items: center;
+          width: 100%;
+          height: 700px;
+          padding: 250px;
+          background-color: #9088D4;
+          margin: 1px;
+          display: none;
+          transition: 0.5s;
+     }
+
+     .ham {
+          align-items: center;
+          position: absolute;
+          padding: 35px;
+          display: block;
+     }
+
+     .close {
+          align-items: center;
+          position: absolute;
+          margin: 0 3000px 0 200px
+     }
+
+     .nav-panel h2{
+          align-items: center;
+     }
+
+     .login-avatar {
+          display: block;
+     }
+
+     .login-avatar img {
+          display: none;
+     }
+
+     .logout {
+          margin-right: 10px;
+     }
+
+
+     .chatbox {
+          width: 400px;
+     }
+
+     .message-box  form input{
+          width: 200px;
+     }
+
+     .message-box form a {
+          padding: 5px;
+          width: 50px;
+     }
+     
+     .container-dashboard h2 {
+          padding: 20px;
+     }
+
+     .ul-hide{
+          display: none;
+     }
+}
+
+
+.ham {
+     display: none;
+}
